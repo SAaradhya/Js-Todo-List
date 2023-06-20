@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:darkolivegreen;
+    background-size: 1500px 750px;
+    background-position: -95px -80px;
+    
+}
+.back-image{
+    background-image: url(./notebook-pen-the-work-course-thumbnail.jpg);
+    background-size: 1500px 750px;
+    background-position: -95px -80px;
+    /* background-repeat: no-repeat; */
+    display: flex;
+}
+h3{
+    color: rgb(96, 218, 242);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    /* margin: 20px,0; */
+    margin-top: 20%;
+
+}
+input{
+    outline: navajowhite;
+    align-items: center;
+    border: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+    /* margin-left: 25%; */
+    margin-bottom: 4%;
+    margin-left: 5%;
+    /* margin-top: 3%; */
+    border: 2px solid gold;
+    /* display: flex;
+    box-shadow: 100%; */
+    padding: 20px;
+}
+button{
+    outline: 3px;
+    border: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(153, 233, 249);
+    /*   box-shadow: red;  */
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 800px;
+    display: flex;
+justify-content: center; 
+margin: 10px 10px 10px;
+/* margin-left: 40%; */
+}
+.todo-buttons{
+    margin-left: 50px;
+}
+
+.task-section{
+    margin-left: 250px;
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+
+}
+
+
+.task-list{
+    /* margin-left: 45%;
+    margin-bottom: 50%; */
+    margin-top: 90px;
+    margin-left: 5%;
+  
+}
+ul{
+    list-style: none;  
+}
+.todo-item{
+    /* design added txt */
+    width: 550px;
+    /* margin-top: 8px; */
+    font-size: 25px;
+    font-family:cursive;
+    text-align: justify;
+
+   
+}
+.complete-btn{
+    /* margin-left: 35%; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+    padding: 3px;
+    width: 160px;
+    /* height: 33px; */
+    font-size: 15px;
+    font-weight: 800px;
+    margin-right: 10px;
+    background-color: rgb(163, 169, 165);
+    border: none;
+
+}
+
+.delete-btn{
+
+    /* margin-left: 35%; */
+     /* margin-top: 10px; */
+    border-radius: 10px;
+    padding: 3px;
+    width:160px;
+    /* height: 33px; */
+    font-size: 15px;
+    font-weight: 800px;
+    background-color: rgb(244, 182, 182);
+    border: none;
+}
